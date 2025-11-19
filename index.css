@@ -1,0 +1,52 @@
+/*............................................................ ULTIMATE CSS..................................................... */
+:root {
+  box-sizing: border-box;
+}
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+body {
+  background-color: rgb(255, 255, 255);
+  color: rgb(0, 0, 0);
+  margin: 0;
+  padding: 0;
+  font-family: poppins, sans-serif;
+}
+
+/*
+HEADER
+*/
+
+.container {
+  margin: 0 auto;
+  border: 1px solid gray;
+  border-radius: 5px;
+}
+.list {
+  display: flex;
+  justify-content: right;
+  list-style: none;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  top: 1em;
+}
+.list > li > a {
+  text-decoration: none;
+  display: block;
+  padding: 0.5em;
+  color: rgb(28, 2, 2);
+  line-height: 0.4rem;
+}
+
+.navigation {
+  margin-right: 1em;
+}
+.hero {
+  background-image: url(/assets/hero.jpeg);
+}
