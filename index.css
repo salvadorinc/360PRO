@@ -170,3 +170,74 @@ small {
   text-align: left;
   margin-left: 3em;
 }
+.button2 {
+  border: none;
+  padding: 1em;
+  border-radius: 2.5em;
+  text-transform: uppercase;
+  color: red;
+  font-weight: 700;
+}
+
+/*
+ THIRD PART
+ */
+.leftA {
+  text-align: left;
+  margin: 0;
+  padding: 0.5em;
+  font-size: 4rem;
+  font-weight: 700;
+  color: red;
+}
+
+.third-part {
+  background-color: rgb(254, 250, 250);
+  margin-top: 0;
+  background-color: aliceblue;
+  padding: 4em;
+}
+.mediaObject1 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  padding: 2em;
+}
+
+.poker1 {
+  width: 250px;
+  height: 250px;
+  right: 4em;
+}
+.poker {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+  border-radius: 8em;
+}
+.products {
+  display: flex;
+  justify-content: space-between;
+}
+.product1 {
+  border: 1px solid black;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  margin: 0 4em 0;
+  padding: 0;
+  color: red;
+  background-color: white;
+  padding: 1em;
+}
+
+.product1 > h2 {
+  margin: 0;
+}
+.reluct {
+  filter: invert(16%) sepia(95%) saturate(7480%) hue-rotate(0deg)
+    brightness(97%) contrast(112%);
+}
