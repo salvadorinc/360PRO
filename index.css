@@ -312,4 +312,51 @@ form > input {
 
 .button3:hover {
   background-color: rgb(33, 105, 167);
+  color: rgb(27, 208, 33);
+}
+
+.footer {
+  display: flex;
+  justify-items: center;
+  justify-content: space-between;
+  flex: 1;
+  text-align: left;
+  padding: 5em;
+  color: white;
+  background-color: black;
+}
+.cool {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  font-size: 1rem;
+  font-weight: 200;
+  padding: 1em;
+  margin-right: 1em;
+  cursor: pointer;
+}
+.cool > ul > li {
+  color: red;
+  margin-top: 1em;
+  list-style: none;
+  font-size: medium;
+  padding: 0;
+}
+.cool > ul {
+  padding: 0;
+}
+
+h2:hover {
+  color: red;
+}
+
+.cool > h2 {
+  color: red;
+}
+.cool > p {
+  color: red;
+}
+.logi {
+  margin-right: 0.5em;
+  padding: 1em;
 }
