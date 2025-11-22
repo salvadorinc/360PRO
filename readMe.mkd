@@ -1,0 +1,5 @@
+this is simple template burger point it was insipired by mockup which i saw at freepik i decided to code it using html and css
+
+Basically is not huge project but i try to practice skills which i keep learn day to day
+
+by salvadorinc (mkabululu@gmail.com)
