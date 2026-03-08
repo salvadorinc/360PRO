@@ -12,7 +12,8 @@ body {
   background-color: rgb(255, 255, 255);
   color: rgb(0, 0, 0);
   margin: 0;
-  padding: 0;
+  padding: 0em 1em 0em 0em;
+  border-color: lightpink;
   font-family: poppins, sans-serif;
 }
 
@@ -21,6 +22,7 @@ HEADER
 */
 
 .container {
+  position: absolute;
   margin: 0 auto;
   border: 1px solid gray;
   border-radius: 5px;
@@ -155,16 +157,13 @@ small {
   align-items: center;
   color: white;
 }
-.medial {
-  padding: 3em;
-}
 
 .ghost {
   width: 100%;
   height: 100%;
-  object-fit: cover;
+  object-fit: contain;
   object-position: center;
-  border-radius: 10em;
+  border-radius: 20em;
 }
 .media-object {
   text-align: left;
